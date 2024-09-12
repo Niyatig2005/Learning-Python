@@ -3,7 +3,7 @@ import json
 
 # This will work on your own device as long as you can run python
 # It will print all outputs in the shell/terminal, and will also make a html file that opens in your browser
-# However the website you click on in the README section of this repository is not using this specific file
+# However I don't have a HTML link for you to run the code on github
 # That is because I spend ages trying to figure out how to make it so that Github runs this file and takes you to the webpage
 # But I could not find any way to do that
 

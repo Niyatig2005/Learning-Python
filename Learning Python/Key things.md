@@ -2,24 +2,24 @@ These Notes were originall written in obsidian with markdown stuff, but it doesn
 
 ### Classes:
 - Encapsulate functionality to be used as complete modules
-- ``` `class Vehicle():`
-		`def __init__(self, bodystyle): #to initialise, self is to refer to itself`
+- ``` class Vehicle():
+		def __init__(self, bodystyle): #to initialise, self is to refer to itself
 			`sel.bodystyle = bodystyle`
-  `class Car(Vehicle):`
-		`def __init__(self, enginetype):`
-			`super().__init__("Car")`
-			`self.wheels = 4`
-			`self.doors = 4`
-			`self.enginetype = enginetype`
-	`class Motercycle(Vehicle):`
-		`def __init__(self, enginetype, hassidecar):`
-			`super().__init__("Motercycle")`
-			`if (hassidecar):`
-				`self.wheels = 3`
-			`else:`
-				`self.wheels = 2`
-			`self.doors = 0`
-			`self.enginetype = enginetype`
+  class Car(Vehicle):
+		def __init__(self, enginetype):
+			super().__init__("Car")
+			self.wheels = 4
+			self.doors = 4
+			self.enginetype = enginetype
+	class Motercycle(Vehicle):
+		def __init__(self, enginetype, hassidecar):
+			super().__init__("Motercycle")
+			if (hassidecar):
+				self.wheels = 3
+			else:
+				self.wheels = 2
+			self.doors = 0
+			self.enginetype = enginetype
   ```
 - Now to create the things:
 `car1 = Car("gas")`

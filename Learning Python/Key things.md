@@ -1,4 +1,4 @@
-These Notes were originall written in obsidian with markdown stuff, but it doesn't translate over to here, so I will just use a text file
+# Key notes for future me
 
 ### Classes:
 - Encapsulate functionality to be used as complete modules

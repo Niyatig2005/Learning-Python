@@ -2,7 +2,7 @@ These Notes were originall written in obsidian with markdown stuff, but it doesn
 
 ### Classes:
 - Encapsulate functionality to be used as complete modules
-- ``` class Vehicle():
+``` class Vehicle():
 		def __init__(self, bodystyle): #to initialise, self is to refer to itself
 			`sel.bodystyle = bodystyle`
   class Car(Vehicle):

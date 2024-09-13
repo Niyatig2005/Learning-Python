@@ -1,3 +1,5 @@
+# Key things for future me
+
 ### Classes:
 - Encapsulate functionality to be used as complete modules
 - `class Vehicle():`

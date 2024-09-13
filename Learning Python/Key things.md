@@ -1,4 +1,5 @@
 # Key notes for future me
+Originally written on obsidian, so excuse any formatting errors!
 
 ### Classes:
 - Encapsulate functionality to be used as complete modules
